@@ -58,6 +58,59 @@ nav a{
 .bottom-content .content{
 	margin-bottom: 10px;
 }
+.content{
+    padding:10px;
+}
 .copyright{
 	text-align: center;
+}
+
+@media(max-width:800px){
+	.container {
+		width: 750px;
+		margin: 0 auto;
+	} 
+	.nav-container{
+		flex-direction: column-reverse;
+	} 
+	nav a{
+		padding: 25px;
+		color: grey;
+		text-decoration-line: none;	
+	}
+	.logo{
+		width: 200px;
+		padding-bottom: 40px;
+	}
+	.round-image{
+		display:none;
+	}
+	.top-content .content{
+		width:60%;
+	}
+
+	.innovation h1{
+		display:inline-block;
+		font-size: 45px;
+        position: relative;
+        margin-left:60px;
+        width: 40%;
+		
+	}
+	.button{
+		border: 1px solid black;
+		width: 140px;
+		text-align: center;
+        margin-bottom:20%;
+        margin-top:-10%;
+        margin-left:5%;
+        
+	}
+	.bottom-content .content{
+		width:30%;
+	}
+	.bottom-content{
+		margin: auto;
+	}
+
 }
